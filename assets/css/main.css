@@ -2009,7 +2009,7 @@ input, select, textarea {
 		position: relative;
 	}
 	header h1 {
-		font-size: x-large;
+		font-size: xx-large !important;
 	}
 
 	header h2 + p {

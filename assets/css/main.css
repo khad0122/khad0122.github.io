@@ -2008,6 +2008,9 @@ input, select, textarea {
 		margin: 0 0 1.5em 0;
 		position: relative;
 	}
+	header h1 {
+		font-size: x-large;
+	}
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2827,7 +2830,7 @@ input, select, textarea {
 		}
 
 			.main.style2 a {
-				border-bottom-color: rgba(255, 255, 255, 0.5);
+				border-bottom-color: rgba(70, 21, 21, 0.5);
 			}
 
 				.main.style2 a:hover {

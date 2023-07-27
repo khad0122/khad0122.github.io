@@ -149,7 +149,7 @@ nav .fa-solid{
 }
 
 .container{
-    max-width: 1170px;
+    
     margin: auto;
 }
 
@@ -191,10 +191,10 @@ ul{
     min-width: 400px;
 }
 .footer-col ul li {
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     font-weight: 300;
-    
+    text-decoration: none !important;
 }
 .footer-col .social-links a{
     font-size: 23px;
@@ -220,7 +220,7 @@ ul{
 }
 .info{
     padding-bottom: 10px;
-    text-decoration: none !important;
+    
 }
 
 .shaksplace{

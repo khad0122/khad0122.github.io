@@ -118,11 +118,12 @@ nav .fa-solid{
         font-size: 22px;
         cursor: pointer;
     }
+    
     .nav-links ul{
         padding: 30px;
     }
     .header img{
-    margin-left: 33px;
+    display: none;
 
 
     }

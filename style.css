@@ -19,6 +19,7 @@ nav{
 }
 nav img{
     width: 100px;
+    border-radius: 50%;
 }
 .nav-links{
     flex: 1;
@@ -120,11 +121,24 @@ nav .fa-solid{
     .nav-links ul{
         padding: 30px;
     }
+    .header img{
+    margin-left: 33px;
+
+
+    }
     .footer-col{
         width: 100%;
         margin-bottom: 30px ;
 
     }
+    .info-col{
+        width: 100% !important;
+        margin-bottom: 20px;
+
+    }
+
+
+
 }
 @media(max-width: 400px) {
     .footer-col{
@@ -132,6 +146,7 @@ nav .fa-solid{
         margin-bottom: 30px ;
 
     }
+
 }
 
 
@@ -140,7 +155,7 @@ nav .fa-solid{
 .footer{
     background-color: #523A28;
     padding: 70px;
-
+    margin-top: 45px;
 
 }
 .container{
@@ -156,7 +171,7 @@ ul{
   list-style: none;
 }
 .footer-col{
-    width: 30%;
+    width: 45%;
     padding: 0 15px;
 
 }
@@ -199,10 +214,42 @@ ul{
     border-radius: 50%;
     color: #523A28;
     transition: all 0.5s ease;
+
 }
 .footer-col .social-links a:hover{
     color: black;
     background-color: #856854;
 
 }
+.social-links2{
+    padding-top: 50px;
+}
+.info{
+    padding-bottom: 10px;
+}
 
+.shaksplace{
+    width: 90%;
+    margin: auto;
+
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p{
+    color: #252323;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+
+
+}
+
+
+.info-col{
+    width: 45%;
+    padding: 0 20px;
+}

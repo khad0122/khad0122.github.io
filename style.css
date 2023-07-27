@@ -135,20 +135,9 @@ nav .fa-solid{
     .info-col{
         width: 100% !important;
         margin-bottom: 20px;
-
     }
-
-
-
 }
-@media(max-width: 400px) {
-    .footer-col{
-        width: 100%;
-        margin-bottom: 30px ;
 
-    }
-
-}
 
 
 
@@ -157,25 +146,28 @@ nav .fa-solid{
     background-color: #523A28;
     padding: 70px;
     margin-top: 45px;
-
 }
+
 .container{
     max-width: 1170px;
     margin: auto;
-
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
+
 ul{
   list-style: none;
 }
+
 .footer-col{
     width: 45%;
     padding: 0 15px;
-
 }
+
+
 .footer-col h4{
     font-size: 18px;
     color: #d2c5b8;
@@ -196,12 +188,13 @@ ul{
 }
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
+    min-width: 400px;
 }
 .footer-col ul li {
     font-size: 16px;
     color: white;
     font-weight: 300;
-    display: block;
+    
 }
 .footer-col .social-links a{
     font-size: 23px;
@@ -227,6 +220,7 @@ ul{
 }
 .info{
     padding-bottom: 10px;
+    text-decoration: none !important;
 }
 
 .shaksplace{
